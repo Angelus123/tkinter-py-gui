@@ -19,7 +19,7 @@ def button_click(number):
     current = e.get()
     e.delete(0, END)
     e.insert(0, str(current) + str(number))
-
+# function to add two numbers
 def button_add():
     fuirst_number =e.get()
     global math 
@@ -27,6 +27,7 @@ def button_add():
     global f_num
     f_num = int(fuirst_number)
     e.delete(0, END)
+#function to multiply two numbers
 def button_multiply():
     fuirst_number =e.get()
     global math 
